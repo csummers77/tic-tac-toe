@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <div class="row">
+        <div id="player-selections">
+            <input type="text" placeholder="Name here" id="player-name" />
+        </div>
+        <button id="one-player" class="btn btn-primary">One player game</button>
+		<button id="two-player" class="btn btn-primary">Two player game</button>
+    </div>
+    </div>
+    <div id="board"></div>
+    <div class="board-row">
+        <button id="A1" class="square">-</button>
+        <button id="B1" class="square">-</button>
+        <button id="C1" class="square">-</button>
+    </div>
+    <div class="board-row">
+        <button id="A2" class="square">-</button>
+        <button id="B2" class="square">-</button>
+        <button id="C2" class="square">-</button>
+    </div>
+    <div class="board-row">
+        <button id="A3" class="square">-</button>
+        <button id="B3" class="square">-</button>
+        <button id="C3" class="square">-</button>
+    </div>
+    <div id="message">X's turn!!</div>
+    <div class="col-sm-2">
+        Player 1 score: <span class="player1-score">0</span>
+    </div>
+    <div class ="col-sm-2">
+        Player 2 score: <span class="player2-score">0</span>
+    </div>
+    <div id="reset-button"></div>
+    <div class="button-section"></div>
+    <script src="tic-tac.js"></script>
+</body>
+</html>
